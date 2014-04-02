@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9806E2DF1845F3D000A755D7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9806E2DD1845F3D000A755D7 /* Default@2x.png */; };
+		9806E2E01845F3D000A755D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9806E2DE1845F3D000A755D7 /* Default-568h@2x.png */; };
+		981005CD1833406800665D97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981005CC1833406800665D97 /* Foundation.framework */; };
+		981005CF1833406800665D97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981005CE1833406800665D97 /* CoreGraphics.framework */; };
+		981005D11833406800665D97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981005D01833406800665D97 /* UIKit.framework */; };
+		981005D71833406800665D97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 981005D51833406800665D97 /* InfoPlist.strings */; };
+		981005D91833406800665D97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 981005D81833406800665D97 /* main.m */; };
+		981005DD1833406800665D97 /* BaseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 981005DC1833406800665D97 /* BaseAppDelegate.m */; };
+		981005E01833406800665D97 /* BaseRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981005DF1833406800665D97 /* BaseRootViewController.m */; };
+		981005E31833406800665D97 /* BaseDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981005E21833406800665D97 /* BaseDataViewController.m */; };
+		981005E61833406800665D97 /* BaseModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981005E51833406800665D97 /* BaseModelController.m */; };
+		981005EB1833406800665D97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981005EA1833406800665D97 /* Images.xcassets */; };
+		981005F21833406800665D97 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981005F11833406800665D97 /* XCTest.framework */; };
+		981005F31833406800665D97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981005CC1833406800665D97 /* Foundation.framework */; };
+		981005F41833406800665D97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981005D01833406800665D97 /* UIKit.framework */; };
+		981005FC1833406800665D97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 981005FA1833406800665D97 /* InfoPlist.strings */; };
+		981005FE1833406800665D97 /* LovemoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 981005FD1833406800665D97 /* LovemoodTests.m */; };
+		981006121833527D00665D97 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 981006081833527D00665D97 /* first.png */; };
+		981006131833527D00665D97 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 981006091833527D00665D97 /* first@2x.png */; };
+		981006141833527D00665D97 /* makeup.png in Resources */ = {isa = PBXBuildFile; fileRef = 9810060A1833527D00665D97 /* makeup.png */; };
+		981006151833527D00665D97 /* makeup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9810060B1833527D00665D97 /* makeup@2x.png */; };
+		981006161833527D00665D97 /* notebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 9810060C1833527D00665D97 /* notebook.png */; };
+		981006171833527D00665D97 /* notebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9810060D1833527D00665D97 /* notebook@2x.png */; };
+		981006181833527D00665D97 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 9810060E1833527D00665D97 /* second.png */; };
+		981006191833527D00665D97 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9810060F1833527D00665D97 /* second@2x.png */; };
+		9810061A1833527D00665D97 /* third.png in Resources */ = {isa = PBXBuildFile; fileRef = 981006101833527D00665D97 /* third.png */; };
+		9810061B1833527D00665D97 /* third@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 981006111833527D00665D97 /* third@2x.png */; };
+		9810062E183352BC00665D97 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 9810061D183352BC00665D97 /* Icon-60.png */; };
+		9810062F183352BC00665D97 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9810061E183352BC00665D97 /* Icon-60@2x.png */; };
+		98100630183352BC00665D97 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 9810061F183352BC00665D97 /* Icon-72.png */; };
+		98100631183352BC00665D97 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98100620183352BC00665D97 /* Icon-72@2x.png */; };
+		98100632183352BC00665D97 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 98100621183352BC00665D97 /* Icon-76.png */; };
+		98100633183352BC00665D97 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98100622183352BC00665D97 /* Icon-76@2x.png */; };
+		98100634183352BC00665D97 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 98100623183352BC00665D97 /* Icon-Small-50.png */; };
+		98100635183352BC00665D97 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98100624183352BC00665D97 /* Icon-Small-50@2x.png */; };
+		98100636183352BC00665D97 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 98100625183352BC00665D97 /* Icon-Small.png */; };
+		98100637183352BC00665D97 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98100626183352BC00665D97 /* Icon-Small@2x.png */; };
+		98100638183352BC00665D97 /* Icon-Spotlight-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 98100627183352BC00665D97 /* Icon-Spotlight-40.png */; };
+		98100639183352BC00665D97 /* Icon-Spotlight-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98100628183352BC00665D97 /* Icon-Spotlight-40@2x.png */; };
+		9810063A183352BC00665D97 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 98100629183352BC00665D97 /* Icon.png */; };
+		9810063B183352BC00665D97 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9810062A183352BC00665D97 /* Icon@2x.png */; };
+		9810063C183352BC00665D97 /* icon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 9810062B183352BC00665D97 /* icon1024.png */; };
+		9810063D183352BC00665D97 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 9810062C183352BC00665D97 /* iTunesArtwork */; };
+		9810063E183352BC00665D97 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 9810062D183352BC00665D97 /* iTunesArtwork@2x */; };
+		981006411833D19300665D97 /* MenuFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981006401833D19300665D97 /* MenuFirstViewController.m */; };
+		984C40AF18404DDD007C48CA /* point.png in Resources */ = {isa = PBXBuildFile; fileRef = 984C40A918404DDD007C48CA /* point.png */; };
+		984C40B018404DDD007C48CA /* point@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 984C40AA18404DDD007C48CA /* point@2x.png */; };
+		984DEF6C183C914D00948B27 /* 男生第一次约会注意事项.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF4E183C914D00948B27 /* 男生第一次约会注意事项.txt */; };
+		984DEF6D183C914D00948B27 /* 第一次见面女生如何穿衣.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF4F183C914D00948B27 /* 第一次见面女生如何穿衣.txt */; };
+		984DEF6E183C914D00948B27 /* 第一次见面如何保证安全.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF50183C914D00948B27 /* 第一次见面如何保证安全.txt */; };
+		984DEF6F183C914D00948B27 /* 复古华丽的新娘发型.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF52183C914D00948B27 /* 复古华丽的新娘发型.txt */; };
+		984DEF70183C914D00948B27 /* 戒指完美衬托不同手型.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF53183C914D00948B27 /* 戒指完美衬托不同手型.txt */; };
+		984DEF71183C914D00948B27 /* 新娘发型盘点.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF54183C914D00948B27 /* 新娘发型盘点.txt */; };
+		984DEF72183C914D00948B27 /* 最流行的新娘发型.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF55183C914D00948B27 /* 最流行的新娘发型.txt */; };
+		984DEF73183C914D00948B27 /* 男士挑选时尚定情信物.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF56183C914D00948B27 /* 男士挑选时尚定情信物.txt */; };
+		984DEF74183C914D00948B27 /* 钻石戒指真伪鉴别技巧.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF57183C914D00948B27 /* 钻石戒指真伪鉴别技巧.txt */; };
+		984DEF75183C914D00948B27 /* 什么是进挪.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF59183C914D00948B27 /* 什么是进挪.txt */; };
+		984DEF76183C914D00948B27 /* 女人如何在恋爱中显得更有魅力.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF5A183C914D00948B27 /* 女人如何在恋爱中显得更有魅力.txt */; };
+		984DEF77183C914D00948B27 /* 恋爱期女人如何防失身.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF5B183C914D00948B27 /* 恋爱期女人如何防失身.txt */; };
+		984DEF78183C914D00948B27 /* 进挪的方法.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF5C183C914D00948B27 /* 进挪的方法.txt */; };
+		984DEF79183C914D00948B27 /* 不求婚的男人不嫁的三大理由.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF5E183C914D00948B27 /* 不求婚的男人不嫁的三大理由.txt */; };
+		984DEF7A183C914D00948B27 /* 享受浪漫美丽时光.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF5F183C914D00948B27 /* 享受浪漫美丽时光.txt */; };
+		984DEF7B183C914D00948B27 /* 全球最浪漫求婚地推荐.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF60183C914D00948B27 /* 全球最浪漫求婚地推荐.txt */; };
+		984DEF7C183C914D00948B27 /* 六招教你做贤妻.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF61183C914D00948B27 /* 六招教你做贤妻.txt */; };
+		984DEF7D183C914D00948B27 /* 如何让男人主动求婚.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF62183C914D00948B27 /* 如何让男人主动求婚.txt */; };
+		984DEF7E183C914D00948B27 /* 婆媳相处妙招必备.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF63183C914D00948B27 /* 婆媳相处妙招必备.txt */; };
+		984DEF7F183C914D00948B27 /* 婚后妻子如何适当做出改变.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF64183C914D00948B27 /* 婚后妻子如何适当做出改变.txt */; };
+		984DEF80183C914D00948B27 /* 怎么求婚最感动？.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF65183C914D00948B27 /* 怎么求婚最感动？.txt */; };
+		984DEF81183C914D00948B27 /* 掌握男人的心理.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF66183C914D00948B27 /* 掌握男人的心理.txt */; };
+		984DEF82183C914D00948B27 /* 矫正对婆婆的片面认知.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF67183C914D00948B27 /* 矫正对婆婆的片面认知.txt */; };
+		984DEF83183C914D00948B27 /* 蜜月旅行常见误区.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF68183C914D00948B27 /* 蜜月旅行常见误区.txt */; };
+		984DEF84183C914D00948B27 /* 蜜月旅行攻略.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF69183C914D00948B27 /* 蜜月旅行攻略.txt */; };
+		984DEF85183C914D00948B27 /* 让男人不想结婚的理由.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF6A183C914D00948B27 /* 让男人不想结婚的理由.txt */; };
+		984DEF87183C96E500948B27 /* 如何通过男人外表了解其人.txt in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF86183C96E500948B27 /* 如何通过男人外表了解其人.txt */; };
+		984DEF89183CC56D00948B27 /* Websites.plist in Resources */ = {isa = PBXBuildFile; fileRef = 984DEF88183CC56D00948B27 /* Websites.plist */; };
+		985446FF183F928800171E4D /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 985446FE183F928800171E4D /* Article.m */; };
+		987BFA0D1839E7680037EEC7 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 987BFA0C1839E7680037EEC7 /* NotificationViewController.m */; };
+		987BFA101839E8000037EEC7 /* NotifactionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 987BFA0F1839E8000037EEC7 /* NotifactionDetailViewController.m */; };
+		9899B39E1841A4A90018C673 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9899B39D1841A4A90018C673 /* CameraViewController.m */; };
+		98B913F7184461FD00AD7CE2 /* deleteImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98B913F5184461FD00AD7CE2 /* deleteImage@2x.png */; };
+		98B913F8184461FD00AD7CE2 /* deleteImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 98B913F6184461FD00AD7CE2 /* deleteImage.png */; };
+		98CA26101846019A00CE4B69 /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CA260D1846019A00CE4B69 /* libWeiboSDK.a */; };
+		98CA26111846019A00CE4B69 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 98CA260E1846019A00CE4B69 /* WeiboSDK.bundle */; };
+		98CA2615184601B500CE4B69 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CA2612184601B500CE4B69 /* libWeChatSDK.a */; };
+		98D786851835B7F50068615F /* default-controls.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 98D786821835B7F50068615F /* default-controls.bundle */; };
+		98D786861835B7F50068615F /* DZWebBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D786841835B7F50068615F /* DZWebBrowser.m */; };
+		98D7868A1835B98C0068615F /* ConfigUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D786891835B98C0068615F /* ConfigUtil.m */; };
+		98D7868F1835BA410068615F /* NSDate+DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D7868C1835BA410068615F /* NSDate+DateUtil.m */; };
+		98D786901835BA410068615F /* UIColor+ColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D7868E1835BA410068615F /* UIColor+ColorUtils.m */; };
+		98D786931835C8790068615F /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D786921835C8790068615F /* ItemViewController.m */; };
+		98DE7A22183DA07700C1EF85 /* NotebookView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DE7A21183DA07700C1EF85 /* NotebookView.m */; };
+		98DE7A25183DA26600C1EF85 /* NotebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DE7A24183DA26600C1EF85 /* NotebookViewController.m */; };
+		98DE7A29183DC6D200C1EF85 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98DE7A27183DC6D200C1EF85 /* Model.xcdatamodeld */; };
+		98DE7A2E183DCAEC00C1EF85 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DE7A2D183DCAEC00C1EF85 /* CoreData.framework */; };
+		98DE7A34183DE60A00C1EF85 /* ImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DE7A33183DE60A00C1EF85 /* ImagePickerViewController.m */; };
+		98DE7A37183DE78A00C1EF85 /* EditPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DE7A36183DE78A00C1EF85 /* EditPageViewController.m */; };
+		98DE7A3A183DF7F000C1EF85 /* addImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DE7A38183DF7F000C1EF85 /* addImage@2x.png */; };
+		98DE7A3B183DF7F000C1EF85 /* addImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DE7A39183DF7F000C1EF85 /* addImage.png */; };
+		98DE7A3E183DFC7B00C1EF85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DE7A3C183DFC7B00C1EF85 /* Main.storyboard */; };
+		98E5E1E91843133A0006B020 /* ItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E5E1E81843133A0006B020 /* ItemView.m */; };
+		98E5E1EC184316740006B020 /* UIView-ViewFrameGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E5E1EB184316740006B020 /* UIView-ViewFrameGeometry.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		981005F51833406800665D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 981005C11833406800665D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 981005C81833406800665D97;
+			remoteInfo = Lovemood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9806E2DD1845F3D000A755D7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9806E2DE1845F3D000A755D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		981005C91833406800665D97 /* Lovemood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lovemood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		981005CC1833406800665D97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		981005CE1833406800665D97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		981005D01833406800665D97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		981005D41833406800665D97 /* Lovemood-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lovemood-Info.plist"; sourceTree = "<group>"; };
+		981005D61833406800665D97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		981005D81833406800665D97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		981005DA1833406800665D97 /* Lovemood-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lovemood-Prefix.pch"; sourceTree = "<group>"; };
+		981005DB1833406800665D97 /* BaseAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseAppDelegate.h; sourceTree = "<group>"; };
+		981005DC1833406800665D97 /* BaseAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseAppDelegate.m; sourceTree = "<group>"; };
+		981005DE1833406800665D97 /* BaseRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseRootViewController.h; sourceTree = "<group>"; };
+		981005DF1833406800665D97 /* BaseRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseRootViewController.m; sourceTree = "<group>"; };
+		981005E11833406800665D97 /* BaseDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseDataViewController.h; sourceTree = "<group>"; };
+		981005E21833406800665D97 /* BaseDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseDataViewController.m; sourceTree = "<group>"; };
+		981005E41833406800665D97 /* BaseModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModelController.h; sourceTree = "<group>"; };
+		981005E51833406800665D97 /* BaseModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModelController.m; sourceTree = "<group>"; };
+		981005EA1833406800665D97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		981005F01833406800665D97 /* LovemoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LovemoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		981005F11833406800665D97 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		981005F91833406800665D97 /* LovemoodTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LovemoodTests-Info.plist"; sourceTree = "<group>"; };
+		981005FB1833406800665D97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		981005FD1833406800665D97 /* LovemoodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LovemoodTests.m; sourceTree = "<group>"; };
+		981006081833527D00665D97 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		981006091833527D00665D97 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		9810060A1833527D00665D97 /* makeup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = makeup.png; sourceTree = "<group>"; };
+		9810060B1833527D00665D97 /* makeup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "makeup@2x.png"; sourceTree = "<group>"; };
+		9810060C1833527D00665D97 /* notebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notebook.png; sourceTree = "<group>"; };
+		9810060D1833527D00665D97 /* notebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notebook@2x.png"; sourceTree = "<group>"; };
+		9810060E1833527D00665D97 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		9810060F1833527D00665D97 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		981006101833527D00665D97 /* third.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third.png; sourceTree = "<group>"; };
+		981006111833527D00665D97 /* third@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "third@2x.png"; sourceTree = "<group>"; };
+		9810061D183352BC00665D97 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		9810061E183352BC00665D97 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		9810061F183352BC00665D97 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		98100620183352BC00665D97 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		98100621183352BC00665D97 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		98100622183352BC00665D97 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		98100623183352BC00665D97 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		98100624183352BC00665D97 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		98100625183352BC00665D97 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		98100626183352BC00665D97 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		98100627183352BC00665D97 /* Icon-Spotlight-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40.png"; sourceTree = "<group>"; };
+		98100628183352BC00665D97 /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
+		98100629183352BC00665D97 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9810062A183352BC00665D97 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		9810062B183352BC00665D97 /* icon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1024.png; sourceTree = "<group>"; };
+		9810062C183352BC00665D97 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = text; path = iTunesArtwork; sourceTree = "<group>"; };
+		9810062D183352BC00665D97 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = text; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		9810063F1833D19300665D97 /* MenuFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuFirstViewController.h; sourceTree = "<group>"; };
+		981006401833D19300665D97 /* MenuFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuFirstViewController.m; sourceTree = "<group>"; };
+		984C40A918404DDD007C48CA /* point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point.png; sourceTree = "<group>"; };
+		984C40AA18404DDD007C48CA /* point@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "point@2x.png"; sourceTree = "<group>"; };
+		984DEF4E183C914D00948B27 /* 男生第一次约会注意事项.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "男生第一次约会注意事项.txt"; sourceTree = "<group>"; };
+		984DEF4F183C914D00948B27 /* 第一次见面女生如何穿衣.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一次见面女生如何穿衣.txt"; sourceTree = "<group>"; };
+		984DEF50183C914D00948B27 /* 第一次见面如何保证安全.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "第一次见面如何保证安全.txt"; sourceTree = "<group>"; };
+		984DEF52183C914D00948B27 /* 复古华丽的新娘发型.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "复古华丽的新娘发型.txt"; sourceTree = "<group>"; };
+		984DEF53183C914D00948B27 /* 戒指完美衬托不同手型.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "戒指完美衬托不同手型.txt"; sourceTree = "<group>"; };
+		984DEF54183C914D00948B27 /* 新娘发型盘点.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "新娘发型盘点.txt"; sourceTree = "<group>"; };
+		984DEF55183C914D00948B27 /* 最流行的新娘发型.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "最流行的新娘发型.txt"; sourceTree = "<group>"; };
+		984DEF56183C914D00948B27 /* 男士挑选时尚定情信物.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "男士挑选时尚定情信物.txt"; sourceTree = "<group>"; };
+		984DEF57183C914D00948B27 /* 钻石戒指真伪鉴别技巧.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "钻石戒指真伪鉴别技巧.txt"; sourceTree = "<group>"; };
+		984DEF59183C914D00948B27 /* 什么是进挪.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "什么是进挪.txt"; sourceTree = "<group>"; };
+		984DEF5A183C914D00948B27 /* 女人如何在恋爱中显得更有魅力.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "女人如何在恋爱中显得更有魅力.txt"; sourceTree = "<group>"; };
+		984DEF5B183C914D00948B27 /* 恋爱期女人如何防失身.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "恋爱期女人如何防失身.txt"; sourceTree = "<group>"; };
+		984DEF5C183C914D00948B27 /* 进挪的方法.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "进挪的方法.txt"; sourceTree = "<group>"; };
+		984DEF5E183C914D00948B27 /* 不求婚的男人不嫁的三大理由.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "不求婚的男人不嫁的三大理由.txt"; sourceTree = "<group>"; };
+		984DEF5F183C914D00948B27 /* 享受浪漫美丽时光.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "享受浪漫美丽时光.txt"; sourceTree = "<group>"; };
+		984DEF60183C914D00948B27 /* 全球最浪漫求婚地推荐.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "全球最浪漫求婚地推荐.txt"; sourceTree = "<group>"; };
+		984DEF61183C914D00948B27 /* 六招教你做贤妻.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "六招教你做贤妻.txt"; sourceTree = "<group>"; };
+		984DEF62183C914D00948B27 /* 如何让男人主动求婚.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "如何让男人主动求婚.txt"; sourceTree = "<group>"; };
+		984DEF63183C914D00948B27 /* 婆媳相处妙招必备.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "婆媳相处妙招必备.txt"; sourceTree = "<group>"; };
+		984DEF64183C914D00948B27 /* 婚后妻子如何适当做出改变.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "婚后妻子如何适当做出改变.txt"; sourceTree = "<group>"; };
+		984DEF65183C914D00948B27 /* 怎么求婚最感动？.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "怎么求婚最感动？.txt"; sourceTree = "<group>"; };
+		984DEF66183C914D00948B27 /* 掌握男人的心理.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "掌握男人的心理.txt"; sourceTree = "<group>"; };
+		984DEF67183C914D00948B27 /* 矫正对婆婆的片面认知.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "矫正对婆婆的片面认知.txt"; sourceTree = "<group>"; };
+		984DEF68183C914D00948B27 /* 蜜月旅行常见误区.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "蜜月旅行常见误区.txt"; sourceTree = "<group>"; };
+		984DEF69183C914D00948B27 /* 蜜月旅行攻略.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "蜜月旅行攻略.txt"; sourceTree = "<group>"; };
+		984DEF6A183C914D00948B27 /* 让男人不想结婚的理由.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "让男人不想结婚的理由.txt"; sourceTree = "<group>"; };
+		984DEF86183C96E500948B27 /* 如何通过男人外表了解其人.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "如何通过男人外表了解其人.txt"; sourceTree = "<group>"; };
+		984DEF88183CC56D00948B27 /* Websites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Websites.plist; sourceTree = "<group>"; };
+		985446FD183F928800171E4D /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		985446FE183F928800171E4D /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		987BFA0B1839E7680037EEC7 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		987BFA0C1839E7680037EEC7 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		987BFA0E1839E8000037EEC7 /* NotifactionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotifactionDetailViewController.h; path = ../NotifactionDetailViewController.h; sourceTree = "<group>"; };
+		987BFA0F1839E8000037EEC7 /* NotifactionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotifactionDetailViewController.m; path = ../NotifactionDetailViewController.m; sourceTree = "<group>"; };
+		9899B39C1841A4A90018C673 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		9899B39D1841A4A90018C673 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		98B913F5184461FD00AD7CE2 /* deleteImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deleteImage@2x.png"; sourceTree = "<group>"; };
+		98B913F6184461FD00AD7CE2 /* deleteImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteImage.png; sourceTree = "<group>"; };
+		98CA260D1846019A00CE4B69 /* libWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeiboSDK.a; sourceTree = "<group>"; };
+		98CA260E1846019A00CE4B69 /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
+		98CA260F1846019A00CE4B69 /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
+		98CA2612184601B500CE4B69 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		98CA2613184601B500CE4B69 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		98CA2614184601B500CE4B69 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		98D786821835B7F50068615F /* default-controls.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "default-controls.bundle"; sourceTree = "<group>"; };
+		98D786831835B7F50068615F /* DZWebBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZWebBrowser.h; sourceTree = "<group>"; };
+		98D786841835B7F50068615F /* DZWebBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZWebBrowser.m; sourceTree = "<group>"; };
+		98D786881835B98C0068615F /* ConfigUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigUtil.h; sourceTree = "<group>"; };
+		98D786891835B98C0068615F /* ConfigUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigUtil.m; sourceTree = "<group>"; };
+		98D7868B1835BA410068615F /* NSDate+DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateUtil.h"; sourceTree = "<group>"; };
+		98D7868C1835BA410068615F /* NSDate+DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateUtil.m"; sourceTree = "<group>"; };
+		98D7868D1835BA410068615F /* UIColor+ColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorUtils.h"; sourceTree = "<group>"; };
+		98D7868E1835BA410068615F /* UIColor+ColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorUtils.m"; sourceTree = "<group>"; };
+		98D786911835C8790068615F /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemViewController.h; sourceTree = "<group>"; };
+		98D786921835C8790068615F /* ItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemViewController.m; sourceTree = "<group>"; };
+		98DE7A20183DA07700C1EF85 /* NotebookView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotebookView.h; sourceTree = "<group>"; };
+		98DE7A21183DA07700C1EF85 /* NotebookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotebookView.m; sourceTree = "<group>"; };
+		98DE7A23183DA26600C1EF85 /* NotebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotebookViewController.h; sourceTree = "<group>"; };
+		98DE7A24183DA26600C1EF85 /* NotebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotebookViewController.m; sourceTree = "<group>"; };
+		98DE7A28183DC6D200C1EF85 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		98DE7A2D183DCAEC00C1EF85 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		98DE7A32183DE60A00C1EF85 /* ImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerViewController.h; sourceTree = "<group>"; };
+		98DE7A33183DE60A00C1EF85 /* ImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerViewController.m; sourceTree = "<group>"; };
+		98DE7A35183DE78A00C1EF85 /* EditPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPageViewController.h; sourceTree = "<group>"; };
+		98DE7A36183DE78A00C1EF85 /* EditPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPageViewController.m; sourceTree = "<group>"; };
+		98DE7A38183DF7F000C1EF85 /* addImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addImage@2x.png"; sourceTree = "<group>"; };
+		98DE7A39183DF7F000C1EF85 /* addImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addImage.png; sourceTree = "<group>"; };
+		98DE7A3D183DFC7B00C1EF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98E5E1E71843133A0006B020 /* ItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemView.h; sourceTree = "<group>"; };
+		98E5E1E81843133A0006B020 /* ItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemView.m; sourceTree = "<group>"; };
+		98E5E1EA184316740006B020 /* UIView-ViewFrameGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView-ViewFrameGeometry.h"; sourceTree = "<group>"; };
+		98E5E1EB184316740006B020 /* UIView-ViewFrameGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView-ViewFrameGeometry.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		981005C61833406800665D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CA26101846019A00CE4B69 /* libWeiboSDK.a in Frameworks */,
+				98DE7A2E183DCAEC00C1EF85 /* CoreData.framework in Frameworks */,
+				98CA2615184601B500CE4B69 /* libWeChatSDK.a in Frameworks */,
+				981005CF1833406800665D97 /* CoreGraphics.framework in Frameworks */,
+				981005D11833406800665D97 /* UIKit.framework in Frameworks */,
+				981005CD1833406800665D97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981005ED1833406800665D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981005F21833406800665D97 /* XCTest.framework in Frameworks */,
+				981005F41833406800665D97 /* UIKit.framework in Frameworks */,
+				981005F31833406800665D97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9806E2D11845B4BF00A755D7 /* weixin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = weixin;
+			sourceTree = "<group>";
+		};
+		9806E2D21845B4D100A755D7 /* weibo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = weibo;
+			sourceTree = "<group>";
+		};
+		981005C01833406800665D97 = {
+			isa = PBXGroup;
+			children = (
+				981005D21833406800665D97 /* Lovemood */,
+				981005F71833406800665D97 /* LovemoodTests */,
+				981005CB1833406800665D97 /* Frameworks */,
+				981005CA1833406800665D97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		981005CA1833406800665D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				981005C91833406800665D97 /* Lovemood.app */,
+				981005F01833406800665D97 /* LovemoodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		981005CB1833406800665D97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98DE7A2D183DCAEC00C1EF85 /* CoreData.framework */,
+				981005CC1833406800665D97 /* Foundation.framework */,
+				981005CE1833406800665D97 /* CoreGraphics.framework */,
+				981005D01833406800665D97 /* UIKit.framework */,
+				981005F11833406800665D97 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		981005D21833406800665D97 /* Lovemood */ = {
+			isa = PBXGroup;
+			children = (
+				98CA260C1846017B00CE4B69 /* weibo */,
+				98CA260B1846017200CE4B69 /* weixin */,
+				9806E2D21845B4D100A755D7 /* weibo */,
+				9806E2D11845B4BF00A755D7 /* weixin */,
+				98DE7A26183DC39700C1EF85 /* data */,
+				98DE7A1F183DA03200C1EF85 /* notebook */,
+				98D786871835B9570068615F /* util */,
+				98D786811835B7DE0068615F /* web */,
+				981005DB1833406800665D97 /* BaseAppDelegate.h */,
+				981005DC1833406800665D97 /* BaseAppDelegate.m */,
+				981005DE1833406800665D97 /* BaseRootViewController.h */,
+				981005DF1833406800665D97 /* BaseRootViewController.m */,
+				981005E11833406800665D97 /* BaseDataViewController.h */,
+				981005E21833406800665D97 /* BaseDataViewController.m */,
+				981005E41833406800665D97 /* BaseModelController.h */,
+				981005E51833406800665D97 /* BaseModelController.m */,
+				981005EA1833406800665D97 /* Images.xcassets */,
+				98DE7A3C183DFC7B00C1EF85 /* Main.storyboard */,
+				98DE7A27183DC6D200C1EF85 /* Model.xcdatamodeld */,
+				981005D31833406800665D97 /* Supporting Files */,
+				9810063F1833D19300665D97 /* MenuFirstViewController.h */,
+				981006401833D19300665D97 /* MenuFirstViewController.m */,
+				98D786911835C8790068615F /* ItemViewController.h */,
+				98D786921835C8790068615F /* ItemViewController.m */,
+				987BFA0B1839E7680037EEC7 /* NotificationViewController.h */,
+				987BFA0C1839E7680037EEC7 /* NotificationViewController.m */,
+				987BFA0E1839E8000037EEC7 /* NotifactionDetailViewController.h */,
+				987BFA0F1839E8000037EEC7 /* NotifactionDetailViewController.m */,
+			);
+			path = Lovemood;
+			sourceTree = "<group>";
+		};
+		981005D31833406800665D97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				984DEF4B183C914D00948B27 /* article */,
+				981006071833414900665D97 /* images */,
+				981005D41833406800665D97 /* Lovemood-Info.plist */,
+				981005D51833406800665D97 /* InfoPlist.strings */,
+				981005D81833406800665D97 /* main.m */,
+				981005DA1833406800665D97 /* Lovemood-Prefix.pch */,
+				984DEF88183CC56D00948B27 /* Websites.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		981005F71833406800665D97 /* LovemoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				981005FD1833406800665D97 /* LovemoodTests.m */,
+				981005F81833406800665D97 /* Supporting Files */,
+			);
+			path = LovemoodTests;
+			sourceTree = "<group>";
+		};
+		981005F81833406800665D97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				981005F91833406800665D97 /* LovemoodTests-Info.plist */,
+				981005FA1833406800665D97 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		981006071833414900665D97 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9806E2DD1845F3D000A755D7 /* Default@2x.png */,
+				9806E2DE1845F3D000A755D7 /* Default-568h@2x.png */,
+				98B913F5184461FD00AD7CE2 /* deleteImage@2x.png */,
+				98B913F6184461FD00AD7CE2 /* deleteImage.png */,
+				984C40A918404DDD007C48CA /* point.png */,
+				984C40AA18404DDD007C48CA /* point@2x.png */,
+				98DE7A38183DF7F000C1EF85 /* addImage@2x.png */,
+				98DE7A39183DF7F000C1EF85 /* addImage.png */,
+				9810061C183352AA00665D97 /* icon */,
+				981006081833527D00665D97 /* first.png */,
+				981006091833527D00665D97 /* first@2x.png */,
+				9810060A1833527D00665D97 /* makeup.png */,
+				9810060B1833527D00665D97 /* makeup@2x.png */,
+				9810060C1833527D00665D97 /* notebook.png */,
+				9810060D1833527D00665D97 /* notebook@2x.png */,
+				9810060E1833527D00665D97 /* second.png */,
+				9810060F1833527D00665D97 /* second@2x.png */,
+				981006101833527D00665D97 /* third.png */,
+				981006111833527D00665D97 /* third@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		9810061C183352AA00665D97 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				9810061D183352BC00665D97 /* Icon-60.png */,
+				9810061E183352BC00665D97 /* Icon-60@2x.png */,
+				9810061F183352BC00665D97 /* Icon-72.png */,
+				98100620183352BC00665D97 /* Icon-72@2x.png */,
+				98100621183352BC00665D97 /* Icon-76.png */,
+				98100622183352BC00665D97 /* Icon-76@2x.png */,
+				98100623183352BC00665D97 /* Icon-Small-50.png */,
+				98100624183352BC00665D97 /* Icon-Small-50@2x.png */,
+				98100625183352BC00665D97 /* Icon-Small.png */,
+				98100626183352BC00665D97 /* Icon-Small@2x.png */,
+				98100627183352BC00665D97 /* Icon-Spotlight-40.png */,
+				98100628183352BC00665D97 /* Icon-Spotlight-40@2x.png */,
+				98100629183352BC00665D97 /* Icon.png */,
+				9810062A183352BC00665D97 /* Icon@2x.png */,
+				9810062B183352BC00665D97 /* icon1024.png */,
+				9810062C183352BC00665D97 /* iTunesArtwork */,
+				9810062D183352BC00665D97 /* iTunesArtwork@2x */,
+			);
+			name = icon;
+			sourceTree = "<group>";
+		};
+		984DEF4B183C914D00948B27 /* article */ = {
+			isa = PBXGroup;
+			children = (
+				984DEF4C183C914D00948B27 /* first */,
+				984DEF51183C914D00948B27 /* fourth */,
+				984DEF58183C914D00948B27 /* sed */,
+				984DEF5D183C914D00948B27 /* third */,
+			);
+			path = article;
+			sourceTree = "<group>";
+		};
+		984DEF4C183C914D00948B27 /* first */ = {
+			isa = PBXGroup;
+			children = (
+				984DEF86183C96E500948B27 /* 如何通过男人外表了解其人.txt */,
+				984DEF4E183C914D00948B27 /* 男生第一次约会注意事项.txt */,
+				984DEF4F183C914D00948B27 /* 第一次见面女生如何穿衣.txt */,
+				984DEF50183C914D00948B27 /* 第一次见面如何保证安全.txt */,
+			);
+			path = first;
+			sourceTree = "<group>";
+		};
+		984DEF51183C914D00948B27 /* fourth */ = {
+			isa = PBXGroup;
+			children = (
+				984DEF52183C914D00948B27 /* 复古华丽的新娘发型.txt */,
+				984DEF53183C914D00948B27 /* 戒指完美衬托不同手型.txt */,
+				984DEF54183C914D00948B27 /* 新娘发型盘点.txt */,
+				984DEF55183C914D00948B27 /* 最流行的新娘发型.txt */,
+				984DEF56183C914D00948B27 /* 男士挑选时尚定情信物.txt */,
+				984DEF57183C914D00948B27 /* 钻石戒指真伪鉴别技巧.txt */,
+			);
+			path = fourth;
+			sourceTree = "<group>";
+		};
+		984DEF58183C914D00948B27 /* sed */ = {
+			isa = PBXGroup;
+			children = (
+				984DEF59183C914D00948B27 /* 什么是进挪.txt */,
+				984DEF5A183C914D00948B27 /* 女人如何在恋爱中显得更有魅力.txt */,
+				984DEF5B183C914D00948B27 /* 恋爱期女人如何防失身.txt */,
+				984DEF5C183C914D00948B27 /* 进挪的方法.txt */,
+			);
+			path = sed;
+			sourceTree = "<group>";
+		};
+		984DEF5D183C914D00948B27 /* third */ = {
+			isa = PBXGroup;
+			children = (
+				984DEF5E183C914D00948B27 /* 不求婚的男人不嫁的三大理由.txt */,
+				984DEF5F183C914D00948B27 /* 享受浪漫美丽时光.txt */,
+				984DEF60183C914D00948B27 /* 全球最浪漫求婚地推荐.txt */,
+				984DEF61183C914D00948B27 /* 六招教你做贤妻.txt */,
+				984DEF62183C914D00948B27 /* 如何让男人主动求婚.txt */,
+				984DEF63183C914D00948B27 /* 婆媳相处妙招必备.txt */,
+				984DEF64183C914D00948B27 /* 婚后妻子如何适当做出改变.txt */,
+				984DEF65183C914D00948B27 /* 怎么求婚最感动？.txt */,
+				984DEF66183C914D00948B27 /* 掌握男人的心理.txt */,
+				984DEF67183C914D00948B27 /* 矫正对婆婆的片面认知.txt */,
+				984DEF68183C914D00948B27 /* 蜜月旅行常见误区.txt */,
+				984DEF69183C914D00948B27 /* 蜜月旅行攻略.txt */,
+				984DEF6A183C914D00948B27 /* 让男人不想结婚的理由.txt */,
+			);
+			path = third;
+			sourceTree = "<group>";
+		};
+		98CA260B1846017200CE4B69 /* weixin */ = {
+			isa = PBXGroup;
+			children = (
+				98CA2612184601B500CE4B69 /* libWeChatSDK.a */,
+				98CA2613184601B500CE4B69 /* WXApi.h */,
+				98CA2614184601B500CE4B69 /* WXApiObject.h */,
+			);
+			name = weixin;
+			sourceTree = "<group>";
+		};
+		98CA260C1846017B00CE4B69 /* weibo */ = {
+			isa = PBXGroup;
+			children = (
+				98CA260D1846019A00CE4B69 /* libWeiboSDK.a */,
+				98CA260E1846019A00CE4B69 /* WeiboSDK.bundle */,
+				98CA260F1846019A00CE4B69 /* WeiboSDK.h */,
+			);
+			name = weibo;
+			sourceTree = "<group>";
+		};
+		98D786811835B7DE0068615F /* web */ = {
+			isa = PBXGroup;
+			children = (
+				98D786821835B7F50068615F /* default-controls.bundle */,
+				98D786831835B7F50068615F /* DZWebBrowser.h */,
+				98D786841835B7F50068615F /* DZWebBrowser.m */,
+			);
+			name = web;
+			sourceTree = "<group>";
+		};
+		98D786871835B9570068615F /* util */ = {
+			isa = PBXGroup;
+			children = (
+				98E5E1EA184316740006B020 /* UIView-ViewFrameGeometry.h */,
+				98E5E1EB184316740006B020 /* UIView-ViewFrameGeometry.m */,
+				98D7868B1835BA410068615F /* NSDate+DateUtil.h */,
+				98D7868C1835BA410068615F /* NSDate+DateUtil.m */,
+				98D7868D1835BA410068615F /* UIColor+ColorUtils.h */,
+				98D7868E1835BA410068615F /* UIColor+ColorUtils.m */,
+				98D786881835B98C0068615F /* ConfigUtil.h */,
+				98D786891835B98C0068615F /* ConfigUtil.m */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		98DE7A1F183DA03200C1EF85 /* notebook */ = {
+			isa = PBXGroup;
+			children = (
+				98DE7A20183DA07700C1EF85 /* NotebookView.h */,
+				98DE7A21183DA07700C1EF85 /* NotebookView.m */,
+				98DE7A23183DA26600C1EF85 /* NotebookViewController.h */,
+				98DE7A24183DA26600C1EF85 /* NotebookViewController.m */,
+				98DE7A32183DE60A00C1EF85 /* ImagePickerViewController.h */,
+				98DE7A33183DE60A00C1EF85 /* ImagePickerViewController.m */,
+				98DE7A35183DE78A00C1EF85 /* EditPageViewController.h */,
+				98DE7A36183DE78A00C1EF85 /* EditPageViewController.m */,
+				9899B39C1841A4A90018C673 /* CameraViewController.h */,
+				9899B39D1841A4A90018C673 /* CameraViewController.m */,
+				98E5E1E71843133A0006B020 /* ItemView.h */,
+				98E5E1E81843133A0006B020 /* ItemView.m */,
+			);
+			name = notebook;
+			sourceTree = "<group>";
+		};
+		98DE7A26183DC39700C1EF85 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				985446FD183F928800171E4D /* Article.h */,
+				985446FE183F928800171E4D /* Article.m */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		981005C81833406800665D97 /* Lovemood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981006011833406800665D97 /* Build configuration list for PBXNativeTarget "Lovemood" */;
+			buildPhases = (
+				981005C51833406800665D97 /* Sources */,
+				981005C61833406800665D97 /* Frameworks */,
+				981005C71833406800665D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lovemood;
+			productName = Lovemood;
+			productReference = 981005C91833406800665D97 /* Lovemood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		981005EF1833406800665D97 /* LovemoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981006041833406800665D97 /* Build configuration list for PBXNativeTarget "LovemoodTests" */;
+			buildPhases = (
+				981005EC1833406800665D97 /* Sources */,
+				981005ED1833406800665D97 /* Frameworks */,
+				981005EE1833406800665D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				981005F61833406800665D97 /* PBXTargetDependency */,
+			);
+			name = LovemoodTests;
+			productName = LovemoodTests;
+			productReference = 981005F01833406800665D97 /* LovemoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		981005C11833406800665D97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Base;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "若峰";
+				TargetAttributes = {
+					981005EF1833406800665D97 = {
+						TestTargetID = 981005C81833406800665D97;
+					};
+				};
+			};
+			buildConfigurationList = 981005C41833406800665D97 /* Build configuration list for PBXProject "Lovemood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 981005C01833406800665D97;
+			productRefGroup = 981005CA1833406800665D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				981005C81833406800665D97 /* Lovemood */,
+				981005EF1833406800665D97 /* LovemoodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		981005C71833406800665D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984DEF7B183C914D00948B27 /* 全球最浪漫求婚地推荐.txt in Resources */,
+				9810063E183352BC00665D97 /* iTunesArtwork@2x in Resources */,
+				984DEF75183C914D00948B27 /* 什么是进挪.txt in Resources */,
+				984DEF89183CC56D00948B27 /* Websites.plist in Resources */,
+				984DEF7D183C914D00948B27 /* 如何让男人主动求婚.txt in Resources */,
+				98B913F7184461FD00AD7CE2 /* deleteImage@2x.png in Resources */,
+				984DEF87183C96E500948B27 /* 如何通过男人外表了解其人.txt in Resources */,
+				981006161833527D00665D97 /* notebook.png in Resources */,
+				984C40AF18404DDD007C48CA /* point.png in Resources */,
+				98B913F8184461FD00AD7CE2 /* deleteImage.png in Resources */,
+				981006151833527D00665D97 /* makeup@2x.png in Resources */,
+				984DEF82183C914D00948B27 /* 矫正对婆婆的片面认知.txt in Resources */,
+				984DEF71183C914D00948B27 /* 新娘发型盘点.txt in Resources */,
+				984DEF77183C914D00948B27 /* 恋爱期女人如何防失身.txt in Resources */,
+				984DEF6C183C914D00948B27 /* 男生第一次约会注意事项.txt in Resources */,
+				984DEF74183C914D00948B27 /* 钻石戒指真伪鉴别技巧.txt in Resources */,
+				98100633183352BC00665D97 /* Icon-76@2x.png in Resources */,
+				9810061B1833527D00665D97 /* third@2x.png in Resources */,
+				98D786851835B7F50068615F /* default-controls.bundle in Resources */,
+				98DE7A3A183DF7F000C1EF85 /* addImage@2x.png in Resources */,
+				981006191833527D00665D97 /* second@2x.png in Resources */,
+				981006121833527D00665D97 /* first.png in Resources */,
+				9806E2DF1845F3D000A755D7 /* Default@2x.png in Resources */,
+				984DEF85183C914D00948B27 /* 让男人不想结婚的理由.txt in Resources */,
+				98100631183352BC00665D97 /* Icon-72@2x.png in Resources */,
+				9806E2E01845F3D000A755D7 /* Default-568h@2x.png in Resources */,
+				984DEF83183C914D00948B27 /* 蜜月旅行常见误区.txt in Resources */,
+				981006171833527D00665D97 /* notebook@2x.png in Resources */,
+				981005EB1833406800665D97 /* Images.xcassets in Resources */,
+				984DEF80183C914D00948B27 /* 怎么求婚最感动？.txt in Resources */,
+				98100635183352BC00665D97 /* Icon-Small-50@2x.png in Resources */,
+				9810063B183352BC00665D97 /* Icon@2x.png in Resources */,
+				981006141833527D00665D97 /* makeup.png in Resources */,
+				981005D71833406800665D97 /* InfoPlist.strings in Resources */,
+				984DEF73183C914D00948B27 /* 男士挑选时尚定情信物.txt in Resources */,
+				984DEF72183C914D00948B27 /* 最流行的新娘发型.txt in Resources */,
+				98100636183352BC00665D97 /* Icon-Small.png in Resources */,
+				9810063D183352BC00665D97 /* iTunesArtwork in Resources */,
+				984DEF79183C914D00948B27 /* 不求婚的男人不嫁的三大理由.txt in Resources */,
+				98100637183352BC00665D97 /* Icon-Small@2x.png in Resources */,
+				9810063C183352BC00665D97 /* icon1024.png in Resources */,
+				981006131833527D00665D97 /* first@2x.png in Resources */,
+				984DEF7F183C914D00948B27 /* 婚后妻子如何适当做出改变.txt in Resources */,
+				984DEF76183C914D00948B27 /* 女人如何在恋爱中显得更有魅力.txt in Resources */,
+				98100639183352BC00665D97 /* Icon-Spotlight-40@2x.png in Resources */,
+				984DEF7E183C914D00948B27 /* 婆媳相处妙招必备.txt in Resources */,
+				9810062F183352BC00665D97 /* Icon-60@2x.png in Resources */,
+				98CA26111846019A00CE4B69 /* WeiboSDK.bundle in Resources */,
+				984C40B018404DDD007C48CA /* point@2x.png in Resources */,
+				984DEF6D183C914D00948B27 /* 第一次见面女生如何穿衣.txt in Resources */,
+				984DEF81183C914D00948B27 /* 掌握男人的心理.txt in Resources */,
+				981006181833527D00665D97 /* second.png in Resources */,
+				98100630183352BC00665D97 /* Icon-72.png in Resources */,
+				984DEF6F183C914D00948B27 /* 复古华丽的新娘发型.txt in Resources */,
+				984DEF7C183C914D00948B27 /* 六招教你做贤妻.txt in Resources */,
+				9810063A183352BC00665D97 /* Icon.png in Resources */,
+				984DEF7A183C914D00948B27 /* 享受浪漫美丽时光.txt in Resources */,
+				98DE7A3E183DFC7B00C1EF85 /* Main.storyboard in Resources */,
+				984DEF78183C914D00948B27 /* 进挪的方法.txt in Resources */,
+				9810062E183352BC00665D97 /* Icon-60.png in Resources */,
+				98100634183352BC00665D97 /* Icon-Small-50.png in Resources */,
+				98100638183352BC00665D97 /* Icon-Spotlight-40.png in Resources */,
+				98DE7A3B183DF7F000C1EF85 /* addImage.png in Resources */,
+				9810061A1833527D00665D97 /* third.png in Resources */,
+				984DEF70183C914D00948B27 /* 戒指完美衬托不同手型.txt in Resources */,
+				98100632183352BC00665D97 /* Icon-76.png in Resources */,
+				984DEF6E183C914D00948B27 /* 第一次见面如何保证安全.txt in Resources */,
+				984DEF84183C914D00948B27 /* 蜜月旅行攻略.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981005EE1833406800665D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981005FC1833406800665D97 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		981005C51833406800665D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981005E01833406800665D97 /* BaseRootViewController.m in Sources */,
+				98DE7A22183DA07700C1EF85 /* NotebookView.m in Sources */,
+				981006411833D19300665D97 /* MenuFirstViewController.m in Sources */,
+				98D786861835B7F50068615F /* DZWebBrowser.m in Sources */,
+				98DE7A34183DE60A00C1EF85 /* ImagePickerViewController.m in Sources */,
+				9899B39E1841A4A90018C673 /* CameraViewController.m in Sources */,
+				985446FF183F928800171E4D /* Article.m in Sources */,
+				98E5E1EC184316740006B020 /* UIView-ViewFrameGeometry.m in Sources */,
+				98DE7A25183DA26600C1EF85 /* NotebookViewController.m in Sources */,
+				98DE7A37183DE78A00C1EF85 /* EditPageViewController.m in Sources */,
+				98D7868A1835B98C0068615F /* ConfigUtil.m in Sources */,
+				987BFA101839E8000037EEC7 /* NotifactionDetailViewController.m in Sources */,
+				981005E61833406800665D97 /* BaseModelController.m in Sources */,
+				987BFA0D1839E7680037EEC7 /* NotificationViewController.m in Sources */,
+				98D786901835BA410068615F /* UIColor+ColorUtils.m in Sources */,
+				98D786931835C8790068615F /* ItemViewController.m in Sources */,
+				98E5E1E91843133A0006B020 /* ItemView.m in Sources */,
+				98DE7A29183DC6D200C1EF85 /* Model.xcdatamodeld in Sources */,
+				981005D91833406800665D97 /* main.m in Sources */,
+				98D7868F1835BA410068615F /* NSDate+DateUtil.m in Sources */,
+				981005DD1833406800665D97 /* BaseAppDelegate.m in Sources */,
+				981005E31833406800665D97 /* BaseDataViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981005EC1833406800665D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981005FE1833406800665D97 /* LovemoodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		981005F61833406800665D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 981005C81833406800665D97 /* Lovemood */;
+			targetProxy = 981005F51833406800665D97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		981005D51833406800665D97 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				981005D61833406800665D97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		981005FA1833406800665D97 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				981005FB1833406800665D97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		98DE7A3C183DFC7B00C1EF85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98DE7A3D183DFC7B00C1EF85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		981005FF1833406800665D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		981006001833406800665D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		981006021833406800665D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: zeng min (FNAGYUTQ5V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: zeng min (FNAGYUTQ5V)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lovemood/Lovemood-Prefix.pch";
+				INFOPLIST_FILE = "Lovemood/Lovemood-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/ios_workspace/Lovemood/Lovemood,
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E9787143-D2C7-4851-A113-3BF5B3C3F49E";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		981006031833406800665D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: zeng min (FNAGYUTQ5V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: zeng min (FNAGYUTQ5V)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lovemood/Lovemood-Prefix.pch";
+				INFOPLIST_FILE = "Lovemood/Lovemood-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/ios_workspace/Lovemood/Lovemood,
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E9787143-D2C7-4851-A113-3BF5B3C3F49E";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		981006051833406800665D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lovemood.app/Lovemood";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lovemood/Lovemood-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LovemoodTests/LovemoodTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		981006061833406800665D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lovemood.app/Lovemood";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lovemood/Lovemood-Prefix.pch";
+				INFOPLIST_FILE = "LovemoodTests/LovemoodTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		981005C41833406800665D97 /* Build configuration list for PBXProject "Lovemood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981005FF1833406800665D97 /* Debug */,
+				981006001833406800665D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		981006011833406800665D97 /* Build configuration list for PBXNativeTarget "Lovemood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981006021833406800665D97 /* Debug */,
+				981006031833406800665D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		981006041833406800665D97 /* Build configuration list for PBXNativeTarget "LovemoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981006051833406800665D97 /* Debug */,
+				981006061833406800665D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		98DE7A27183DC6D200C1EF85 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				98DE7A28183DC6D200C1EF85 /* Model.xcdatamodel */,
+			);
+			currentVersion = 98DE7A28183DC6D200C1EF85 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 981005C11833406800665D97 /* Project object */;
+}

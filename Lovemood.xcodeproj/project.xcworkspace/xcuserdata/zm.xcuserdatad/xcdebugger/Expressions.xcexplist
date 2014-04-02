@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ItemViewController prepareForSegue:sender:]:ItemViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[segue identifier] ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NotebookViewController contentDisplay]:NotebookViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "TEXT_WIDTH">
+            </PersistentString>
+            <PersistentString
+               value = "[documentsDirectory stringByAppendingPathComponent:article.image]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NotificationViewController cancel:]:NotificationViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NotebookViewController itemViewToRightWithArticle:withCurrentHeight:]:NotebookViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.articles">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NotebookViewController fetchArticleObjects]:NotebookViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[EditPageViewController scaleAndRotateImage:]:EditPageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "imageCopy">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__71-[NotebookViewController itemViewToRightWithArticle:withCurrentHeight:]_block_invoke:NotebookViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(ItemView *)self.viewArray[i])">
+            </PersistentString>
+            <PersistentString
+               value = "((ItemView *)self.viewArray[i]).origin.y">
+            </PersistentString>
+            <PersistentString
+               value = "(ItemView *)self.viewArray[i]).origin.y">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NotebookViewController sendTextContent:]:NotebookViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[documentsDirectory stringByAppendingPathComponent:self.operationArticle.image3] stringByAppendingPathExtension:@&quot;png&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "self.operationArticle.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[EditPageViewController viewWillAppear:]:EditPageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.imageView.image">
+            </PersistentString>
+            <PersistentString
+               value = "self.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BaseDataViewController prepareForSegue:sender:]:BaseDataViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[segue identifier]">
+            </PersistentString>
+            <PersistentString
+               value = "self.dataLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[EditPageViewController tapImage:]:EditPageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "imageview.image.accessibilityIdentifier">
+            </PersistentString>
+            <PersistentString
+               value = "imageview.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NotificationViewController viewDidLoad]:NotificationViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[NSString stringWithFormat:@&quot;%@&quot;,[NSBundle mainBundle],nil]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NotifactionDetailViewController viewDidLoad]:NotifactionDetailViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[EditPageViewController textChanged:]:EditPageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.textview.text length]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MenuFirstViewController prepareForSegue:sender:]:MenuFirstViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[segue identifier]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MenuViewController viewDidLoad]:MenuViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

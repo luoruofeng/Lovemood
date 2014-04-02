@@ -1,0 +1,39 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import "DZWebBrowser.h"
+#import "UIColor+ColorUtils.h"
+#import "NSDate+DateUtil.h"
+#import "ConfigUtil.h"
+#import "UIView-ViewFrameGeometry.h"
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+
+#define SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
+#define APPLICATION_FRAME [[UIScreen mainScreen] applicationFrame]
+#define SCREEN_FRAME [[UIScreen mainScreen] bounds]
+#define KEY_WINDOW [[UIApplication sharedApplication] keyWindow]
+#define IOS_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
+#define isIPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define PINK_COLOR @"fe0a56"
+#define BLUE_COLOR @"457afb"
+
+#define Integer CORNER_RADIUS 14
+
+#define PENG_YOU_QUAN 0
+#define WEI_XIN 1
+#define WEI_XIN_SHOU_CHANG 2
+#define WEI_BO 3
